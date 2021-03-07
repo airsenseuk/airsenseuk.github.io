@@ -1,5 +1,5 @@
-- avatar: images/@stock/member-1.jpg
-  name: Mark Wayne
+- avatar: images/@stock/p4.png
+  name: Fabrizio Bonatesta
   position: Founder
   socials:
     - link: http://twitter.com
@@ -8,9 +8,9 @@
       icon: facebook
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/@stock/member-2.jpg
-  name: Kate Holms
-  position: Creative Director
+- avatar: images/@stock/p1.png
+  name: Byron Mason
+  position: Founder
   socials:
     - link: http://twitter.com
       icon: twitter
@@ -19,26 +19,28 @@
     - link: http://dribbble.com
       icon: dribbble
   desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/@stock/member-3.jpg
-  name: Tome Hason
-  position: Designer
+     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+- avatar: images/@stock/p2.png
+  name: Some Person
+  position: Founder
   socials:
     - link: http://twitter.com
       icon: twitter
     - link: http://facebook.com
       icon: facebook
-    - link: http://tumblr.com
-      icon: tumblr
+    - link: http://dribbble.com
+      icon: dribbble
   desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- avatar: images/@stock/member-4.jpg
-  name: Lily Whrem
-  position: Developer
+     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+- avatar: images/@stock/p3.png
+  name: Some Person
+  position: Founder
   socials:
     - link: http://twitter.com
       icon: twitter
     - link: http://facebook.com
       icon: facebook
+    - link: http://dribbble.com
+      icon: dribbble
   desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.

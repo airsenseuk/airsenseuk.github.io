@@ -2,47 +2,55 @@
 layout: default
 section_id: home
 slides:
-  - bg: images/@stock/slide-1.jpg
+  - bg: images/@stock/london-5297395_2320.png
     small_title:
       klass: bottom-to-top
-      text: The perfect theme for
+      text: air quality solutions for
     title:
       klass: bottom-to-top
-      text: Many purposes
+      text: clean cities 
     buttons:
       klass: bottom-to-top
       items:
         - text: Learn More
           link_to: http://themeforest.net/user/honryou/portfolio?ref=honryou
-  - bg: images/@stock/slide-4.jpg
+  - bg: images/@stock/industry-1752876.png
     klass: centered-text
     small_title:
       klass: bottom-to-top
-      text: We make websites that are
+      text: air quality monitoring and analytics for
     title:
       klass: bottom-to-top
-      text: Creative &amp; Powerful
+      text: urban environments
     buttons:
       klass: bottom-to-top
       items:
-        - klass: boxed
-          text: View Features
+        - text: learn more
           link_to: http://themeforest.net/user/honryou/portfolio?ref=honryou
-        - text: Purchase Now
-          link_to: http://themeforest.net/user/honryou/portfolio?ref=honryou
-  - bg: images/@stock/slide-5.jpg
+  - bg: images/@stock/father-4525302.jpg
     small_title:
       klass: bottom-to-top
-      text: This is a creative theme that you'll
+      text: the right to
     title:
       klass: bottom-to-top
-      text: definitely love...
+      text: breathe clean air
     buttons:
       klass: bottom-to-top
       items:
-        - text: Learn More
+        - text: our manifesto
           link_to: http://themeforest.net/user/honryou/portfolio?ref=honryou
-
+  - bg: images/@stock/community-386673.png
+    small_title:
+      klass: bottom-to-top
+      text: giving a voice to
+    title:
+      klass: bottom-to-top
+      text: clean air communities
+    buttons:
+      klass: bottom-to-top
+      items:
+        - text: getting involved
+          link_to: http://themeforest.net/user/honryou/portfolio?ref=honryou
 
 
 works:
@@ -89,18 +97,18 @@ works:
 
 
 services:
-  - icon: trophy
-    title: Web Design
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
   - icon: cogs
-    title: Web Development
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: pagelines
-    title: Branding
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: lock
-    title: Security
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+    title: Urban Simulation and Scenario Analysis
+    desc: Highly spatially and temporally resolved simulations providing better understanding of mitigation methods and real exposure.
+  - icon: cogs
+    title: Data Capture
+    desc: Instrumenting the the urban environment to capture highly resolved data using specialist sensing equipment unlike any other available.
+  - icon: cogs
+    title: Analytics and Data Discovery
+    desc: Analysis of data from measurements and discovery of data from public sources including datasets and social media using automated machine learning methods.
+  - icon: cogs  
+    title: Information Services
+    desc: Data hosting and service provision for connected city infrastructures.
 
 milestones:
   - icon: folder-open
@@ -121,7 +129,6 @@ milestones:
     title: Articles Published
 
 ---
-
 
 <div class='mod modDefaultSlider'>
   <div class='sequence' data-autostop='on' data-timeout='0'>
@@ -150,7 +157,7 @@ milestones:
         {% endif %}
 
         <li class='frame {{style}} {{ slide.klass }}'>
-          <div class='bg' style='background-image: url({{ slide.bg}});'></div>
+          <div class='bg' style='background-image: url({{ slide.bg }});'></div>
           <div class='small-title {{ slide.small_title.klass }}'>
             <div class='row'>
               <div class='large-12 columns'>
@@ -181,6 +188,7 @@ milestones:
   </div>
 </div>
 
+<!--
 <div class="four spacing"></div>
 
 <div class="row">
@@ -203,7 +211,7 @@ milestones:
 <div class="full" style="background: #f5f5f5;">
   <div class="row">
     <div class="large-12 columns">
-      {% include section-header.html title="Our works" %}
+      {% include section-header.html title="What we do" %}
       <div class="spacing"></div>
       <p>
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
@@ -230,7 +238,7 @@ milestones:
     </ul>
   </div>
 </div>
-
+-->
 
 <div class='full'>
   <div class='row'>
@@ -245,7 +253,7 @@ milestones:
   </div>
   <div class='row'>
     <div class='medium-6 columns'>
-      <img class="fadeinleft" alt="" src="images/@stock/responsive.png" />
+      <img class="fadeinleft" alt="" src="images/@stock/code.png" />
       <div class='three spacing'></div>
     </div>
     <div class='medium-6 columns'>
@@ -256,15 +264,13 @@ milestones:
             <h3>{{service.title}}</h3>
             <p>{{service.desc}}</p>
           </div>
-          <div class='two spacing'></div>
         </div>
       {% endfor %}
     </div>
   </div>
-  <div class='spacing'></div>
 </div>
 
-
+<!--
 <div class='full parallax' style='background-image: url(images/@stock/milestone-bg.jpg); color: #fff;'>
   <div class='row'>
     <div class='large-12 columns'>
@@ -290,6 +296,7 @@ milestones:
   </div>
   <div class='two spacing'></div>
 </div>
+-->
 
 <div class='full'>
   <div class='row'>
@@ -330,7 +337,7 @@ milestones:
     {% endfor %}
   </div>
 </div>
-
+<!--
 <div class='full' style='background: #f5f5f5'>
   <div class='row'>
     <div class='large-12 columns'>
@@ -361,7 +368,7 @@ milestones:
             <p class='date'>{{post.date | date: "%B %d, %Y" }}</p>
             <h4><a href="#">{{post.title}}</a></h4>
             <p>{{post.excerpt}}</p>
-            <!--
+            
               <div class="tags">
                 {% for cat in post.categories %}
                   <a href="#">{{cat | capitalize}}</a>
@@ -370,7 +377,7 @@ milestones:
                   {% endunless %}
                 {% endfor %}
               </div>
-            -->
+            
           </div>
         </div>
       </div>
@@ -392,9 +399,7 @@ milestones:
 
 </div>
 
-
 {% include our-customers.html %}
-
 
 <div class='full no-padding' style='background: #fff'>
   <div class='two spacing'></div>
@@ -410,3 +415,4 @@ milestones:
   </div>
   <div class='spacing'></div>
 </div>
+-->
